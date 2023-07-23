@@ -14,21 +14,24 @@ touch m2.txt
 git add .
 git commit -m'C2 - master'
 sleep 1
-git branch hotfix
+
+git checkout -b hotfix
 
 touch m3.txt
 git add .
-git commit -m'C3 - master'
+git commit -m'C3 - hotfix'
 sleep 1
 touch m4.txt
 git add .
-git commit -m'C4 - master'
+git commit -m'C4 - hotfix'
 sleep 1
-git checkout hotfix
+
+git checkout master
+
 touch h1.txt
 git add .
-git commit -m'C5 - hotfix'
+git commit -m'C5 - master'
 sleep 1
 touch h2.txt
 git add .
-git commit -m'C6 - hotfix'
+git commit -m'C6 - master'
