@@ -1,0 +1,7 @@
+Copy file VS CODE word vào 
+
+https://backlog.com/git-tutorial/vn/stepup/stepup7_6.html
+hoc tiep tags
+5. Tổng hợp commit bằng rebase -i
+6. Sửa commit bằng rebase -i
+7. Merge --squash
