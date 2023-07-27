@@ -15,6 +15,7 @@ touch m2.txt
 git add .
 git commit -m'C2 - master'
 sleep 1
+
 git branch hotfix
 git checkout hotfix
 
@@ -26,6 +27,7 @@ touch h13.txt
 git add .
 git commit -m'C3a - hotfix'
 sleep 1
+
 git checkout master
 
 touch m4.txt

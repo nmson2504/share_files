@@ -22,6 +22,7 @@ touch h3.txt
 git add .
 git commit -m'C3 - hotfix'
 sleep 1
+
 git checkout master
 
 touch m4.txt
