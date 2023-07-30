@@ -1,9 +1,8 @@
  # delete all(include .git)
 rm -rf -- ..?* .[!.]* *
 
- alias g_a='git log --all --decorate --oneline  --graph'
- alias g='git log --decorate --oneline  --graph'
- 
+alias g_a='git log --all --decorate --oneline  --graph'
+alias g='git log --decorate --oneline  --graph' 
 
 git init
 
