@@ -1,8 +1,0 @@
-Copy file VS CODE word vào 
-https://vscode.dev/profile/github/8b0ba8ec99885b47373e9b9385aa3620
-
-
-
-avdmanager --verbose create avd --force --name "pixel_5_api30_google_atd_emulator" --package "system-images;android-31;google_apis;x86_64" --tag "google_atd" --abi "arm64-v8a" --device "pixel_5"
-
-system-images;android-31;google_apis;x86_64
