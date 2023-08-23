@@ -3,7 +3,6 @@ https://vscode.dev/profile/github/8b0ba8ec99885b47373e9b9385aa3620
 
 
 
-https://stackoverflow.com/questions/42718973/run-avd-emulator-without-android-studio
+avdmanager --verbose create avd --force --name "pixel_5_api30_google_atd_emulator" --package "system-images;android-31;google_apis;x86_64" --tag "google_atd" --abi "arm64-v8a" --device "pixel_5"
 
-neu bi loi..... thi vao link nay
-PS C:\Users\Thinkpad T480s\AppData\Local\Android\Sdk\emulator> ./emulator.exe -avd Pixel_5_API_30
+system-images;android-31;google_apis;x86_64
